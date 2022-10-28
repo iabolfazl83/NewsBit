@@ -10,12 +10,12 @@ menuBtn.addEventListener("click", function () {
         headerMenu.classList.add("show");
         menuBtn.classList.add("active");
         document.querySelector("body").style.overflowY = "hidden";
-        document.querySelector("body").style.paddingRight = "17px";
+        // document.querySelector("body").style.paddingRight = "17px";
     } else {
         headerMenu.classList.remove("show");
         menuBtn.classList.remove("active");
         document.querySelector("body").style.overflowY = "auto";
-        document.querySelector("body").style.paddingRight = "0";
+        // document.querySelector("body").style.paddingRight = "0";
     }
 
 })
